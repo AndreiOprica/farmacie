@@ -7,7 +7,7 @@ public class Farmacie {
     public String adresa;
     public Oras oras;
     public String telefon;
-    public HashMap<Integer, Medicament> stoc = new HashMap<Integer, Medicament>();
+    public HashMap<Integer, Medicament> stoc = new HashMap<>();
 
     public Farmacie(int cod, String nume, String adresa, Oras oras, String telefon){
         this.cod = cod;
